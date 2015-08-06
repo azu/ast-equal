@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/ast-equal/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test helper to assert JS AST equality.",
   "main": "lib/ast-equal.js",
   "files": [
