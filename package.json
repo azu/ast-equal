@@ -36,5 +36,8 @@
     "escodegen": "^1.6.1",
     "esprima": "^2.5.0",
     "power-assert": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21"
   }
 }
