@@ -1,4 +1,4 @@
-# ast-equal
+# ast-equal [![Build Status](https://travis-ci.org/azu/ast-equal.svg?branch=master)](https://travis-ci.org/azu/ast-equal)
 
 Test helper to assert JavaScript AST equality.
 
