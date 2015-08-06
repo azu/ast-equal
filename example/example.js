@@ -7,7 +7,7 @@ var actualAST = parse(sourceCode);
 var expectedCode = 'var a = "string";';
 var expectedAST = parse(expectedCode);
 
-// AST == Code
+// AST === Code
 astEqual(actualAST, expectedCode);
-// AST == AST
+// AST === AST
 astEqual(actualAST, expectedAST);
