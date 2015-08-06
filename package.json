@@ -1,0 +1,39 @@
+{
+  "name": "ast-equal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/ast-equal.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/ast-equal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/ast-equal/issues"
+  },
+  "version": "1.0.0",
+  "description": "test helper to assert JS AST equality.",
+  "main": "lib/ast-equal.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "test": "(cd example && npm test)"
+  },
+  "keywords": [
+    "AST",
+    "testing",
+    "test",
+    "assert"
+  ],
+  "dependencies": {
+    "escodegen": "^1.6.1",
+    "esprima": "^2.5.0",
+    "power-assert": "^0.11.0"
+  }
+}
