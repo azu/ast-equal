@@ -24,7 +24,8 @@
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "pretest": "npm run build",
-    "test": "(cd example && npm test)"
+    "test": "(cd example && npm test)",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "AST",
