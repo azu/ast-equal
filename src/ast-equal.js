@@ -7,7 +7,8 @@ const parseOption = {
     loc: true,
     range: true,
     comment: true,
-    attachComment: true
+    attachComment: true,
+    sourceType: "module"
 };
 const generateOption = {
     comment: true
